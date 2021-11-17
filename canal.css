@@ -1,0 +1,99 @@
+*{
+  font-family: 'Noto Sans Mono', monospace; 
+  text-align: justify;
+        
+}
+/*estilo para los titulos*/
+h1{
+  font-family: 'Bebas Neue', cursive;
+} 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+      
+.row.content {height: 450px}
+  
+     
+/*ajustes para cuando la pagina tenga menos de 767px */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .row.content {height:auto;} 
+  iframe{
+    width: 350px;
+    height: 600px;
+  }
+}
+.revelde{
+  font-size: 17px;
+}
+.p-footer{
+  margin: 0 auto;
+  text-align: center;
+}
+.p-footer a{
+  text-decoration: none;
+  list-style: none;
+  color: #F3F3F3;
+}
+.p-footer img{
+  padding-right: 5px;
+}
+
+.container-fluid{
+  width: 100%;
+}
+.color{
+  background-color: #454545;
+  line-height: 50px;
+  margin-top: 5px;
+}
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.web{
+  text-align: center;
+} 
+.footer1{
+  margin-top: 6.75%;
+}
+iframe{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.tarkov{
+  text-align: center;
+}
+.video{
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.navbar{
+  width: 100%;
+  position: fixed;
+}
+table{
+  border: 2px solid black;
+  margin: auto;
+}
+table th{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+table td{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+#resultado{
+  margin-bottom: 95px;
+}
