@@ -76,7 +76,6 @@ iframe{
 }
 .navbar{
   width: 100%;
-  position: fixed;
 }
 table{
   border: 2px solid black;
@@ -96,4 +95,10 @@ table td{
 }
 #resultado{
   margin-bottom: 95px;
+  text-align: center;
+}
+
+.videosiframes{
+  margin: 0 auto;
+  text-align: center;
 }

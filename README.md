@@ -1,5 +1,0 @@
-# readme
-
-## Primera subida
-
-### hola
