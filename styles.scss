@@ -1,3 +1,7 @@
+$color:red;
+$centro:center;
+$color1:#6A6A6A;
+
 *{
   font-family: 'Noto Sans Mono', monospace; 
   text-align: justify;
@@ -33,7 +37,7 @@ h1{
 }
 .p-footer{
   margin: 0 auto;
-  text-align: center;
+  text-align: $centro;
 }
 .p-footer a{
   text-decoration: none;
@@ -57,7 +61,7 @@ h1{
   margin-left: 0px;
 }
 .web{
-  text-align: center;
+  text-align: $centro;
 } 
 .footer1{
   margin-top: 6.75%;
@@ -67,12 +71,12 @@ iframe{
   margin-right: 2.5%;
 }
 .tarkov{
-  text-align: center;
+  text-align: $centro;
 }
 .video{
-  text-align: center;
+  text-align: $centro;
   margin: 0 auto;
-  align-items: center;
+  align-items: $centro;
 }
 .navbar{
   width: 100%;
@@ -85,20 +89,25 @@ table th{
   border: 2px solid black;
   border-radius: 5px;
   padding: 5px;
-  text-align: center;
+  text-align: $centro;
 }
 table td{
   border: 2px solid black;
   border-radius: 5px;
   padding: 5px;
-  text-align: center;
+  text-align: $centro;
 }
 #resultado{
   margin-bottom: 95px;
-  text-align: center;
+  text-align: $centro;
 }
 
 .videosiframes{
   margin: 0 auto;
-  text-align: center;
+  text-align: $centro;
+}
+
+.color1{
+  background-color:$color1;
+  color:white;
 }

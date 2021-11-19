@@ -38,3 +38,7 @@ function juegopubg(){
   	 	document.getElementById("resultado").appendChild(iframe);
     }
 }
+
+function encuesta(){
+	document.write("prueba");
+}
