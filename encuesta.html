@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="canal.css">
     <link rel="icon" href="imagenes/pichon.png"> 
+    <script src="canal.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-inverse">
@@ -32,7 +33,6 @@
             <li><a href="canal.html">Inicio</a></li>
             <li><a href="videos.html">Horarios y videos</a></li>
             <li class="active"><a href="encuesta.html">Encuesta</a></li>
-            
           </ul>
         </div>
       </div>
@@ -43,14 +43,25 @@
         </div>
         <!--Titulo y definicion-->
         <div class="col-sm-8 text-left"> 
-          <h1 class="web">Canal de Pichon_alegre</h1><br>
-          
-            <br>
-            <h4>Pulsa el botón para empezar la encuesta</h4>
-            <br>
-            <button onclick="encuesta()">Encuesta</button>
-            <hr>
-            
+          <h1 class="web">Encuesta sobre Pichon_alegre</h1><br>
+            <div id="encuesta">
+              <h4>1º Pregunta: ¿Donde vive Pichon?</h4>
+              <input type="text" name="" id="lugar">
+              <br><br>
+              <h4>2º Pregunta: ¿Cuantos años tiene?</h4>
+              <input type="text" name="" id="edad">
+              <br><br>
+              <h4>3º Pregunta: ¿Cual es su verdadero nombre?</h4>
+              <input type="text" name="" id="nombre">
+              <br><br>
+              <h4>4º Pregunta: ¿De donde es originalmente?</h4>
+              <input type="text" name="" id="origen">
+              <br><br>
+              <button onclick="encuesta()">Enviar</button>
+            </div>
+            <div id="resultado">
+              
+            </div>
         </div>
       </div>
     </div>

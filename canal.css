@@ -128,4 +128,28 @@ table td {
   color: white;
 }
 
+#encuesta {
+  text-align: center;
+}
+
+#encuesta h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+.correcto {
+  color: green;
+}
+
+.incorrecto {
+  color: red;
+}
+
+#encuesta {
+  margin-bottom: 247px;
+}
+
 /*# sourceMappingURL=canal.css.map */

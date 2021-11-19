@@ -40,5 +40,32 @@ function juegopubg(){
 }
 
 function encuesta(){
-	document.write("prueba");
+	document.getElementById("encuesta").style.marginBottom="60px";
+	var input1=document.getElementById("lugar").value;
+	var input2=document.getElementById("edad").value;
+	var input3=document.getElementById("nombre").value;
+	var input4=document.getElementById("origen").value;
+
+	var resultado = document.getElementById("resultado");
+	resultado.innerHTML=""
+	if ( input1=="granada" ||input1=="Granada") {
+		resultado.innerHTML+="<h5>1º respuesta= <b class=\"correcto\">Correcto!</b></h5>";
+	}else{
+		resultado.innerHTML+="<h5>1º respuesta= <b class=\"incorrecto\">Incorrecto!</b></h5>";
+	}
+	if ( input2=="21") {
+		resultado.innerHTML+="<h5>2º respuesta= <b class=\"correcto\">Correcto!</b></h5>";
+	}else{
+		resultado.innerHTML+="<h5>2º respuesta= <b class=\"incorrecto\">Incorrecto!</b></h5>";
+	}
+	if ( input3=="aladin" || input3=="Aladin") {
+		resultado.innerHTML+="<h5>3º respuesta= <b class=\"correcto\">Correcto!</b></h5>";
+	}else{
+		resultado.innerHTML+="<h5>3º respuesta= <b class=\"incorrecto\">Incorrecto! </b></h5>";
+	}
+	if ( input4=="palestina" || input4=="Palestina") {
+		resultado.innerHTML+="<h5>4º respuesta= <b class=\"correcto\">Correcto!</b></h5>";
+	}else{
+		resultado.innerHTML+="<h5>4º respuesta= <b class=\"incorrecto\">Incorrecto!</b></h5>";
+	}
 }
