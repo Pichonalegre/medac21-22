@@ -32,6 +32,14 @@ h1 {
     width: 350px;
     height: 600px;
   }
+
+  .previsualizacion {
+    width: 250px;
+  }
+
+  video {
+    width: 250px;
+  }
 }
 .revelde {
   font-size: 17px;
@@ -150,6 +158,11 @@ h5 {
 
 #encuesta {
   margin-bottom: 247px;
+}
+
+.sobre {
+  text-align: center;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=canal.css.map */

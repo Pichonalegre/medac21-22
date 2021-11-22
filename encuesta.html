@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="canal.css">
     <link rel="icon" href="imagenes/pichon.png"> 
-    <script src="canal.js"></script>
+    <script src="canal.js"></script><!--conecto el javascript-->
   </head>
   <body>
     <nav class="navbar navbar-inverse">
@@ -41,7 +41,7 @@
       <div class="row content">
         <div class="col-sm-2 sidenav">
         </div>
-        <!--Titulo y definicion-->
+        <!--encuesta-->
         <div class="col-sm-8 text-left"> 
           <h1 class="web">Encuesta sobre Pichon_alegre</h1><br>
             <div id="encuesta">
@@ -57,17 +57,17 @@
               <h4>4º Pregunta: ¿De donde es originalmente?</h4>
               <input type="text" name="" id="origen">
               <br><br>
-              <button onclick="encuesta()">Enviar</button>
+              <button onclick="encuesta()">Enviar</button><!--este boton llama a una funcionde javascript-->
             </div>
             <div id="resultado">
-              
+                <!--aqui guardo el resultado de la encuesta-->
             </div>
         </div>
       </div>
     </div>
     <!--footer-->
     <div class="footer1 container-fluid row color">
-        <div class="col-12 col-sm-12 col-md-6">
+        <div class="col-12 col-sm-12 col-md-6"><!--si esta en fullscreen está dividido en 2, si está pequeño lo pone al maximo cada una -->
           <p class="p-footer">
             <a class="twitch" href="https://www.twitch.tv/pichon_alegre"><img width="30px" src="imagenes/twitch.png">Twitch</a>
           </p>
