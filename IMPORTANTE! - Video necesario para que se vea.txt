@@ -1,0 +1,3 @@
+En el archivo "canal.html" hay un video que pesa mucho, en el siguiente link te dejará descargar videos de Youtube: https://es.savefrom.net/1-youtube-video-downloader-22.html
+el link del video es: https://www.youtube.com/watch?v=9wyBRJxjrW8&t=1s
+para que funcione debe de estar en la carpeta imagenes/el nombre que le pongas al descargarlo
